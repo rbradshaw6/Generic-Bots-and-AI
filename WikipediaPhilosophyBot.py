@@ -1,4 +1,5 @@
 # Written by Robert Bradshaw (Georgia Tech)
+# v1.0.0
 # Apparently, the majority of pages on Wikipedia will eventually link to the Philosophy page if you keep following the first non-italicized link on each page.
 # TODO: Implement adjency list and Dijkstra's shortest path algorithm to find the shortest path to the Philosophy page.
 
@@ -79,5 +80,5 @@ def Main():
 	ViewBot(browser)
 	browser.close()
 
-if __name__ == "__main__":
+if (__name__ == "__main__"):
 	Main()
